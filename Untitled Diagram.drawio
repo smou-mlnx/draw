@@ -1456,7 +1456,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VNA8o-V7DBoujg6ThaVz" name="unified">
-    <mxGraphModel dx="6519" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="6912" dy="1169" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1768,7 +1768,7 @@
             <mxRectangle x="100" y="450" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nUy05FYll5X1aKgIrknM-2" value="pattern regc0_bit4-15 is RSS / action mark&amp;nbsp; / RSS" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nUy05FYll5X1aKgIrknM-1">
+        <mxCell id="nUy05FYll5X1aKgIrknM-2" value="pattern regc0_bit4-15 is RSS / action mark&amp;nbsp; / RSS(mark for default mode)" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nUy05FYll5X1aKgIrknM-1">
           <mxGeometry y="26" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nUy05FYll5X1aKgIrknM-3" value="&lt;b&gt;RSS suffix Rx table(FDB doamin)&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -1776,7 +1776,7 @@
             <mxRectangle x="100" y="450" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nUy05FYll5X1aKgIrknM-4" value="pattern regc0_bit4-15 is RSS / action copy meta / RSS" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nUy05FYll5X1aKgIrknM-3">
+        <mxCell id="nUy05FYll5X1aKgIrknM-4" value="pattern regc0_bit4-15 is RSS / action copy meta / mark / RSS(mark for defaul)" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nUy05FYll5X1aKgIrknM-3">
           <mxGeometry y="26" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UrL9va3p8gumRMXGMh5T-1" value="internal table" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -1882,13 +1882,13 @@
             <mxRectangle x="100" y="450" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3QjN_CLBP4BGAdU1K02f-24" value="pattern xx action jump to &lt;i&gt;&lt;b&gt;set regc0 bit4-15&lt;/b&gt;&lt;/i&gt; / j&lt;b&gt;ump_fdb_rx&lt;/b&gt; to RSS Tx table(FDB Tx only)" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3QjN_CLBP4BGAdU1K02f-13">
+        <mxCell id="3QjN_CLBP4BGAdU1K02f-24" value="pattern xx action &lt;i&gt;&lt;b&gt;set regc0 bit4-15&lt;/b&gt;&lt;/i&gt; / j&lt;b&gt;ump_fdb_rx&lt;/b&gt; to RSS Tx table(FDB Tx only)" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3QjN_CLBP4BGAdU1K02f-13">
           <mxGeometry y="26" width="540" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3QjN_CLBP4BGAdU1K02f-14" value="pattern xx action jump to &lt;b&gt;&lt;i&gt;copy meta&lt;/i&gt;&lt;/b&gt; / &lt;b&gt;mark &lt;/b&gt;/ RSS(FDB Rx only)" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3QjN_CLBP4BGAdU1K02f-13">
+        <mxCell id="3QjN_CLBP4BGAdU1K02f-14" value="pattern xx action &lt;b&gt;&lt;i&gt;copy meta&lt;/i&gt;&lt;/b&gt; / &lt;b&gt;mark &lt;/b&gt;/ RSS(FDB Rx only)" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3QjN_CLBP4BGAdU1K02f-13">
           <mxGeometry y="52" width="540" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3QjN_CLBP4BGAdU1K02f-15" value="pattern xx action jump to &lt;i&gt;set regc0 bit4-15&lt;/i&gt; / jump to pre-rss(Unified)" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3QjN_CLBP4BGAdU1K02f-13">
+        <mxCell id="3QjN_CLBP4BGAdU1K02f-15" value="pattern xx action&amp;nbsp; &lt;b&gt;&lt;i&gt;set regc0 bit4-15 / jump to pre-rss&lt;/i&gt;&lt;/b&gt;(Unified)" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3QjN_CLBP4BGAdU1K02f-13">
           <mxGeometry y="78" width="540" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3QjN_CLBP4BGAdU1K02f-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=0;jumpStyle=arc;" edge="1" parent="1" source="3QjN_CLBP4BGAdU1K02f-15" target="inBaJQMCemZEtxo5-LuR-1">
